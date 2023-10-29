@@ -2,5 +2,5 @@ import { ActionTypes } from "./types";
 
 export interface CountAction {
   type: ActionTypes.COUNT;
-  info: 'count action'
+  info: 'add +1 to counter'
 };
