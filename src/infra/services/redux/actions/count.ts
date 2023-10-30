@@ -1,4 +1,6 @@
-import { ActionTypes } from "./types";
+export enum ActionTypes {
+  COUNT = 'COUNT'
+};
 
 export interface CountAction {
   type: ActionTypes.COUNT;
